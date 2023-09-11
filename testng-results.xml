@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-02T11:58:33 IST" name="Suite" finished-at="2023-09-02T11:58:34 IST" duration-ms="60">
+    <groups>
+    </groups>
+    <test started-at="2023-09-02T11:58:33 IST" name="parallel Test" finished-at="2023-09-02T11:58:34 IST" duration-ms="60">
+      <class name="com.testgnSimple.SampleTestNG">
+        <test-method signature="LogoutTest()[pri:2, instance:com.testgnSimple.SampleTestNG@4fb0f2b9]" started-at="2023-09-02T11:58:34 IST" name="LogoutTest" finished-at="2023-09-02T11:58:34 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method signature="checkTestCase()[pri:2, instance:com.testgnSimple.SampleTestNG@4fb0f2b9]" started-at="2023-09-02T11:58:34 IST" name="checkTestCase" finished-at="2023-09-02T11:58:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="loginTest()[pri:2, instance:com.testgnSimple.SampleTestNG@4fb0f2b9]" started-at="2023-09-02T11:58:34 IST" name="loginTest" finished-at="2023-09-02T11:58:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.testgnSimple.SampleTestNG -->
+      <class name="com.testgnSimple.ParallelTestNG">
+        <test-method signature="FirstMethod()[pri:1, instance:com.testgnSimple.ParallelTestNG@40ef3420]" started-at="2023-09-02T11:58:34 IST" name="FirstMethod" finished-at="2023-09-02T11:58:34 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethod -->
+        <test-method signature="SecondMethod()[pri:2, instance:com.testgnSimple.ParallelTestNG@40ef3420]" started-at="2023-09-02T11:58:34 IST" name="SecondMethod" finished-at="2023-09-02T11:58:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondMethod -->
+        <test-method is-config="true" signature="exittest()[pri:0, instance:com.testgnSimple.ParallelTestNG@40ef3420]" started-at="2023-09-02T11:58:34 IST" name="exittest" finished-at="2023-09-02T11:58:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exittest -->
+      </class> <!-- com.testgnSimple.ParallelTestNG -->
+    </test> <!-- parallel Test -->
+  </suite> <!-- Suite -->
+</testng-results>
